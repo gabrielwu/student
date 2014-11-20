@@ -1,0 +1,131 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    import="db.*,java.sql.*,java.util.*,java.net.*" pageEncoding="utf-8"%>
+<%
+	String loginuser = (String)session.getAttribute("username");
+	if(loginuser == null) {
+		String url = request.getRequestURL().toString();
+		String param = request.getQueryString();
+		if(param != null)
+			url += "?" + param;
+		response.sendRedirect("/login.jsp?from=" + URLEncoder.encode(url, "utf-8"));
+		return;
+	}
+    String grade = request.getParameter("grade");
+    String classnum = request.getParameter("class");
+    if(classnum == null) {
+    	if(grade == null)
+    		response.sendRedirect("/classview.jsp");
+    	else
+    		response.sendRedirect("/classview.jsp?grade=" + grade);
+    }
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="/css/ui.css" />
+    <title>可视化查询班级信息</title>
+    <style type="text/css">
+    .studentrow {
+        overflow: auto;
+        zoom: 1;
+        margin-top: 10px;
+    }
+    .studentimg {
+        float: left;
+        width: 110px;
+        height: 170px;
+        border: 1px solid #eee;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+    .studentimg img {
+        width: 96px;
+        height: 128px;
+        margin: 5px 0 0 7px;
+    }
+    .studentimg p {
+        padding: 8px 0 8px 0;
+        text-align: center;
+    }
+    .studentimg a {
+    	padding-left: 20px;
+        font-size: 12pt;
+        background: url(/img/xsgl.png) no-repeat;
+    }
+    </style>
+</head>
+<body>
+    <%@include file="banner.jsp" %>
+    <div class="content">
+        <div class="optionp">
+            <ul>
+                <li>
+                    <div class="optiontitle switchon">学生管理</div>
+                    <ul class="optioncatag">
+                        <li class="optionfocus">
+                            <img src="/img/xz_ico.png" alt="icon" />
+                            <a href="#">学生查询</a>
+                        </li>
+                        <li>
+                            <img src="/img/xxtj.png" alt="icon" />
+                            <a href="#">学生统计</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="mainp">
+            <div class="toolbar">
+                <a class="toolbartab toolbarfocus" href="#">可视化浏览</a>
+                <a class="toolbartab" href="#">条件查询</a>
+            </div>
+            <div class="view">
+                <div class="viewtitle">
+                	<img src="/img/photo.png" alt="icon" />
+	                <a href="/classview.jsp">软件学院</a> &gt;
+	                <a href="/classview.jsp?grade=<%=grade %>"><%=grade %>级</a> &gt;
+	                <a><%=classnum %>班</a>
+            	</div>
+            <%
+                Connection conn = Database.getConnection();
+				PreparedStatement stmt = conn.prepareStatement(
+					"select stu_id, stu_name from student where stu_grade=? and stu_class=?");
+				stmt.setString(1, grade);
+				stmt.setString(2, classnum);
+                ResultSet rs = stmt.executeQuery();
+                List<String[]> ls = new ArrayList<String[]>();
+                while(rs.next()) {
+                	String[] temp = new String[2];
+                    temp[0] = rs.getString(1);
+                    temp[1] = rs.getString(2);
+                    ls.add(temp);
+                }
+                rs.close();
+                stmt.close();
+                conn.close();
+                int nrow = ls.size() % 6 == 0 ? ls.size() / 6 : ls.size() / 6 + 1;
+                int j = 0;
+                for(int i = 0; i < nrow; ++i) {
+            %>
+                <div class="studentrow">
+                <%
+                    for(int k = 0; j < ls.size() && k < 6; ++j, ++k) {
+                %>
+                    <div class="studentimg">
+                        <div><img src="/head/<%=ls.get(j)[0] %>.jpg" alt="head" /></div>
+                        <p><a href="studetail.jsp?id=<%=ls.get(j)[0] %>"><%=ls.get(j)[1] %></a></p>
+                    </div>
+                <%
+                    }
+                %>
+                </div>
+            <%
+                }
+            %>
+            </div>
+        </div>
+    </div>
+    <%@include file="footer.jsp" %>
+</body>
+</html>

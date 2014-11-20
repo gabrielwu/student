@@ -1,0 +1,2 @@
+[ 2011-11-17T13:26:46+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: NO)
+[ 2011-11-17T13:26:50+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: NO)

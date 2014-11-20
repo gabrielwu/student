@@ -1,0 +1,367 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML 
+xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>学生国家助学贷款修改</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<link href="./style/table.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+table thead tr th {
+    width:30%;
+}
+</style>
+<script type="text/javascript" src="{$path}/javascript/jquery.min.js"></script>
+<script type="text/javascript">
+function updateLoan(){
+	$("#form").submit();
+	window.close();
+}
+</script>
+</HEAD>
+<BODY>
+<DIV id=wrap>
+  <DIV id=content >
+      <table class="form" width="400" cellpadding="0" cellspacing="0">
+        <thead>
+          <tr class="">
+            <th align="center" colspan="2">
+			新建发文
+			</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="">
+            <th>收文人</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>主题</th>
+            <td>
+			    <input name="stu_num" id="stu_num"  value="" type="text">
+			</td>
+          </tr>
+		  <tr class="">
+            <th>内容</th>
+            <td>
+			    <textarea cols=20 rows=10></textarea>
+			</td>
+          </tr>
+          <tr class="">
+            <td></td>
+            <td>
+			    <button type="button" onclick="updateLoan()"  class="add">提交</button>
+				<button type="button" onclick="updateLoan()"  class="add">重置</button>
+			</td>
+          </tr>
+      </table>
+	  </br></br>
+	  
+	  <table class="form" width="400" cellpadding="0" cellspacing="0">
+        <thead>
+          <tr class="">
+            <th align="center" colspan="2">添加会议信息</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="">
+            <th>时间</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>主持人</th>
+            <td>
+			    <input name="stu_num" id="stu_num"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>出席人</th>
+            <td>
+			    <input name="stu_num" id="stu_num"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>会议地点</th>
+            <td>
+			    <input name="stu_num" id="stu_num"  value="" type="text">
+			</td>
+          </tr>
+		  <tr class="">
+            <th>会议内容</th>
+            <td>
+			    <textarea cols=20 rows=10></textarea>
+			</td>
+          </tr>
+          <tr class="">
+            <td></td>
+            <td>
+			    <button type="button" onclick="updateLoan()"  class="add">提交</button>
+				<button type="button" onclick="updateLoan()"  class="add">重置</button>
+			</td>
+          </tr>
+      </table>
+	  </br></br>
+	  
+	  <table class="form" width="400" cellpadding="0" cellspacing="0">
+        <thead>
+          <tr class="">
+            <th align="center" colspan="2">添加新公告</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="">
+            <th>主题</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>内容</th>
+            <td>
+			    <textarea cols=20 rows=10></textarea>
+			</td>
+          </tr>
+          <tr class="">
+            <td></td>
+            <td>
+			    <button type="button" onclick="updateLoan()"  class="add">提交</button>
+				<button type="button" onclick="updateLoan()"  class="add">重置</button>
+			</td>
+          </tr>
+      </table>
+	  </br></br>
+	  
+	  
+	  <table class="form" width="400" cellpadding="0" cellspacing="0">
+        <thead>
+          <tr class="">
+            <th align="center" colspan="2">添加新员工</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="">
+            <th>用户名</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+		  <tr class="">
+            <th>密码</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+		  <tr class="">
+            <th>确认密码</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+		  <tr class="">
+            <th>姓名</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+		  <tr class="">
+            <th>性别</th>
+            <td>
+			    <select name="" id=""><option value="">男</option></select>
+			</td>
+          </tr>
+		  <tr class="">
+            <th>权限</th>
+            <td>
+			    <select name="" id=""><option value="">管理员</option></select>
+			</td>
+          </tr>
+		  <tr class="">
+            <th>部门</th>
+            <td>
+			    <select name="" id=""><option value="">人力资源部</option></select>    
+			</td>
+          </tr>
+		  <tr class="">
+            <th>职务</th>
+            <td>
+			    <select name="" id=""><option value="">员工</option></select>
+			</td>
+          </tr>
+		  <tr class="">
+            <th>电话</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+		  <tr class="">
+            <th>Email</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+		  <tr class="">
+            <th>地址</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <td></td>
+            <td>
+			    <button type="button" onclick="updateLoan()"  class="add">提交</button>
+				<button type="button" onclick="updateLoan()"  class="add">重置</button>
+			</td>
+          </tr>
+      </table>
+	  </br></br>
+	  
+	  
+	  
+	  <table class="form" width="400" cellpadding="0" cellspacing="0">
+        <thead>
+          <tr class="">
+            <th align="center" colspan="2">上传文档</th>
+          </tr>
+        </thead>
+        <tbody>
+		  <tr class="">
+            <th>主题</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>文件</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="file">
+			</td>
+          </tr>
+          <tr class="">
+            <th>描述</th>
+            <td>
+			    <textarea cols=20 rows=10></textarea>
+			</td>
+          </tr>
+          <tr class="">
+            <td></td>
+            <td>
+			    <button type="button" onclick="updateLoan()"  class="add">提交</button>
+				<button type="button" onclick="updateLoan()"  class="add">重置</button>
+			</td>
+          </tr>
+      </table>
+	  </br></br>
+	  
+	  <table class="form" width="400" cellpadding="0" cellspacing="0">
+        <thead>
+          <tr class="">
+            <th align="center" colspan="2">添加办公用品</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="">
+            <th>类型</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>品牌</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>数量</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>金额</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>采购部门</th>
+            <td>
+			    <select name="" id=""><option value="">人力资源部</option></select>    
+			</td>
+          </tr>
+		  <tr class="">
+            <th>购买日期</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <td></td>
+            <td>
+			    <button type="button" onclick="updateLoan()"  class="add">提交</button>
+				<button type="button" onclick="updateLoan()"  class="add">重置</button>
+			</td>
+          </tr>
+      </table>
+	  </br></br>
+	  
+	  	  <table class="form" width="400" cellpadding="0" cellspacing="0">
+        <thead>
+          <tr class="">
+            <th align="center" colspan="2">添加新车辆</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="">
+            <th>车牌号</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>型号</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>驾驶员</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>生产厂家</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <th>状态</th>
+            <td>
+			    <select name="" id=""><option value="">正常</option></select>    
+			</td>
+          </tr>
+		  <tr class="">
+            <th>购买日期</th>
+            <td>
+			    <input name="stu_name" id="stu_name"  value="" type="text">
+			</td>
+          </tr>
+          <tr class="">
+            <td></td>
+            <td>
+			    <button type="button" onclick="updateLoan()"  class="add">提交</button>
+				<button type="button" onclick="updateLoan()"  class="add">重置</button>
+			</td>
+          </tr>
+      </table>
+	  </br></br>
+	  
+  </DIV>
+</DIV>
+</BODY>
+</HTML>

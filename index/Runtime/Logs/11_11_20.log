@@ -1,0 +1,19 @@
+[ 2011-11-20T00:07:27+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2011-11-20T00:07:37+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2011-11-20T00:10:32+08:00 ] ERR: (ThinkException) Access denied for user '鍚曟父'@'localhost' (using password: YES)
+[ 2011-11-20T00:10:48+08:00 ] ERR: (ThinkException) Access denied for user '鍚曟父'@'localhost' (using password: YES)
+[ 2011-11-20T00:10:51+08:00 ] ERR: (ThinkException) Access denied for user '鍚曟父'@'localhost' (using password: YES)
+[ 2011-11-20T00:23:18+08:00 ] ERR: (ThinkException) Access denied for user '鍚曟父'@'localhost' (using password: YES)
+[ 2011-11-20T00:38:51+08:00 ] ERR: (ThinkException) Access denied for user 'Neutrino'@'localhost' (using password: YES)
+[ 2011-11-20T00:38:59+08:00 ] ERR: (ThinkException) Access denied for user 'Neutrino'@'localhost' (using password: YES)
+[ 2011-11-20T00:44:13+08:00 ] ERR: (ThinkException) Access denied for user 'Neutrino'@'localhost' (using password: YES)
+[ 2011-11-20T00:45:43+08:00 ] ERR: (ThinkException) php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+[ 2011-11-20T00:47:03+08:00 ] ERR: (ThinkException) php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+[ 2011-11-20T00:47:11+08:00 ] ERR: (ThinkException) php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+[ 2011-11-20T00:49:01+08:00 ] ERR: (ThinkException) php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+[ 2011-11-20T00:49:10+08:00 ] ERR: (ThinkException) php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+[ 2011-11-20T00:51:27+08:00 ] ERR: (ThinkException) php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+[ 2011-11-20T00:51:34+08:00 ] ERR: (ThinkException) php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+[ 2011-11-20T00:53:07+08:00 ] ERR: (ThinkException) php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+[ 2011-11-20T00:55:32+08:00 ] ERR: (ThinkException) Access denied for user '鍚曟父'@'localhost' (using password: YES)
+[ 2011-11-20T11:11:10+08:00 ] ERR: (ThinkException) 闈炴硶鎿嶄綔images

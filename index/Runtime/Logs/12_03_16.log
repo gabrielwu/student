@@ -1,0 +1,8 @@
+[ 2012-03-16T23:33:05+08:00 ] ERR: (ThinkException) 非法操作student
+[ 2012-03-16T23:33:08+08:00 ] ERR: (ThinkException) 非法操作student
+[ 2012-03-16T23:33:38+08:00 ] ERR: (ThinkException) 非法操作student
+[ 2012-03-16T23:34:19+08:00 ] ERR: (ThinkException) 非法操作student
+[ 2012-03-16T23:38:39+08:00 ] ERR: (ThinkException) 无法加载模块Tpl
+[ 2012-03-16T23:38:41+08:00 ] ERR: (ThinkException) 无法加载模块Tpl
+[ 2012-03-16T23:38:49+08:00 ] ERR: (ThinkException) 无法加载模块Tpl
+[ 2012-03-16T23:39:42+08:00 ] ERR: (ThinkException) 无法加载模块Tpl

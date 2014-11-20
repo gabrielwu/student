@@ -1,0 +1,43 @@
+table.form tbody th {background:#FFFFFF;}
+	.button{ 
+    	width:80px;
+	    cursor: pointer;
+	    height:36px;
+	    background:url(../images/tab_10.jpg);
+	    font-size:12px; 
+	    color:#fff; 
+	    line-height:36px;
+    }
+	body{
+	    margin: 0 auto;
+		width:800px;
+		overflow:auto;  
+	}
+	label.label2 {
+    	color:red;
+    }
+	.title{
+		font-weight:600;
+		font:16px
+		background:url(../img/tab_05.jpg) repeat-x;
+		height:90px;
+		text-align:center;
+		color:white
+	}
+	#title#tip{
+		font-weight:600;
+		font:16px
+		color:red
+	}
+	table {
+	    margin: 0 auto;
+	    border: 1px solid #000;
+		border-collapse:collsapse
+	}
+	td, th{
+	    margin: 0 auto;
+	    border: 1px solid #000;
+	}
+	table td {
+	    width: 40%;
+	}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,table,*{ margin:0px; padding:0px; border:0; font-size:12px; }
+body{height: 100%; OVERFLOW: visible}
+img, div, input { behavior: url("images/iepngfix.htc");}
+li{ list-style:none;}
+a{text-decoration:none; }
+
+HTML {HEIGHT: 100%; OVERFLOW: visible}
+body{MARGIN: 0px; WIDTH: 100%; FONT-FAMILY: Arial, tahoma, Helvetica, sans-serif; background: #fff repeat-x; HEIGHT: 100%; COLOR: #222; FONT-SIZE: 12px; OVERFLOW: hidden; WORD-BREAK: break-all}
+#top{width:100%; min-width:1000px; height:200px; clear:both;}
+#top .flash{ width:100%; height:160px; background:url(../images/top_01.jpg) repeat-x;}
+
+#top .magess {width:100%; height:40px; background:url(../images/top_05.jpg) repeat-x; color:#0b4980;  line-height:40px;}
+#top .magess td{ font-size:14px; padding-left:10px; font-weight:bold; vertical-align:middle; }
+#top .magess a{ font-size:14px; padding-left:10px; color:#0b4980;  font-weight:bold; vertical-align:middle; }
+#top .magess img{ vertical-align:middle; padding-right:5px;}
+
+
+#left{ width:210px; height:100%; background:url(../images/left_13.jpg) repeat-y;}
+
+
+

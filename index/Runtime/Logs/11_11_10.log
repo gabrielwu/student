@@ -1,0 +1,11 @@
+[ 2011-11-10T11:03:00+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-11-10T11:25:42+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-11-10T15:41:54+08:00 ] ERR: (ThinkException) 非法操作updategrant
+[ 2011-11-10T15:41:59+08:00 ] ERR: (ThinkException) 非法操作updategrant
+[ 2011-11-10T15:42:25+08:00 ] ERR: (ThinkException) 非法操作updategrant
+[ 2011-11-10T16:35:05+08:00 ] ERR: (ThinkException) 非法操作download
+[ 2011-11-10T20:16:44+08:00 ] ERR: (ThinkException) 模板不存在[./index/Tpl/default/Public/success.html]
+[ 2011-11-10T20:55:44+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-11-10T21:10:43+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-11-10T22:15:54+08:00 ] ERR: (ThinkException) upload/grant/国家助学金.xls下载文件不存在！
+[ 2011-11-10T22:16:45+08:00 ] ERR: (ThinkException) upload/1310213549.xls下载文件不存在！

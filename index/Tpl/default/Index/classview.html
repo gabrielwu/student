@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="{$path}/css/ui.css" />
+    <title>可视化查询班级信息</title>
+</head>
+<body>
+    <div class="content">
+        <div class="mainp">
+            <div class="toolbar">
+                <a class="toolbartab toolbarfocus" href="#">可视化浏览</a>
+                <a class="toolbartab" href="#">条件查询</a>
+            </div>
+            <div class="view">
+                <div class="viewtitle"><img src="/img/photo.png" alt="icon" />
+                <a href="/classview.jsp">软件学院</a>
+                <a><%=year %></a><%
+                <div>
+                    <div class="graderow-title"><%=grade %>年级</div>
+                    <div class="graderow">
+                        <div class="classfolder">
+                            <a href="/studentview.jsp?grade=<%=grade %>&class=<%=j %>"><%=j %>班</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

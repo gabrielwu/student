@@ -1,0 +1,15 @@
+[ 2011-12-05T16:43:25+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-12-05T16:54:54+08:00 ] ERR: (ThinkException) 非法操作studentview.php
+[ 2011-12-05T16:56:38+08:00 ] ERR: (ThinkException) 非法操作studentview.php
+[ 2011-12-05T16:56:43+08:00 ] ERR: (ThinkException) 非法操作studentview.php
+[ 2011-12-05T16:57:50+08:00 ] ERR: (ThinkException) 非法操作studentview.php
+[ 2011-12-05T21:44:55+08:00 ] ERR: (ThinkException) 非法操作verify
+[ 2011-12-05T21:44:57+08:00 ] ERR: (ThinkException) 非法操作verify
+[ 2011-12-05T21:44:58+08:00 ] ERR: (ThinkException) 非法操作verify
+[ 2011-12-05T21:45:59+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-12-05T21:46:23+08:00 ] ERR: (ThinkException) 非法操作verify
+[ 2011-12-05T21:47:00+08:00 ] ERR: (ThinkException) 非法操作verify
+[ 2011-12-05T21:47:14+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-12-05T21:58:31+08:00 ] ERR: (ThinkException) 非法操作inputstream
+[ 2011-12-05T23:23:09+08:00 ] ERR: (ThinkException) 非法操作gather
+[ 2011-12-05T23:33:11+08:00 ] ERR: (ThinkException) 非法操作gather

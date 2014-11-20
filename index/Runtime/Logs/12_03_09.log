@@ -1,0 +1,11 @@
+[ 2012-03-09T13:54:04+08:00 ] ERR: (ThinkException) 模板不存在[./index/Tpl/default/Party/uploadFile.html]
+[ 2012-03-09T16:07:16+08:00 ] ERR: (ThinkException) Action:forward您所请求的方法不存在！
+[ 2012-03-09T16:26:19+08:00 ] ERR: (ThinkException) 非法操作Competition
+[ 2012-03-09T16:27:12+08:00 ] ERR: (ThinkException) 非法操作__URL__
+[ 2012-03-09T16:32:18+08:00 ] ERR: (ThinkException) 非法操作Competition
+[ 2012-03-09T16:36:58+08:00 ] ERR: (ThinkException) 非法操作Competition
+[ 2012-03-09T18:13:06+08:00 ] ERR: (ThinkException) 非法操作Tpl
+[ 2012-03-09T18:13:06+08:00 ] ERR: (ThinkException) 非法操作Tpl
+[ 2012-03-09T18:16:05+08:00 ] ERR: (ThinkException) 非法操作Tpl
+[ 2012-03-09T18:16:05+08:00 ] ERR: (ThinkException) 非法操作Tpl
+[ 2012-03-09T18:19:25+08:00 ] ERR: (ThinkException) 非法操作Competition

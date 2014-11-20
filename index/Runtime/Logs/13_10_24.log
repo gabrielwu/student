@@ -1,0 +1,6 @@
+[ 2013-10-24T17:46:18+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2013-10-24T17:47:21+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2013-10-24T17:48:49+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2013-10-24T17:56:01+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2013-10-24T18:04:17+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2013-10-24T18:10:39+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
